@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+    <style>
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 5px;
+            border: 3px solid red;
+            background-color: rgb(159, 158, 158);
+            width: 1300px;
+        }
+
+        .hat {
+            background-color: rgb(255, 110, 255);
+            height: 400px;
+            width: 900px;
+            position: relative;
+            margin: 5px auto;
+        }
+
+        .hat-center {
+            background-color: white;
+            height: 250px;
+            width: 750px;
+            position: absolute;
+            top: 20%;
+            left: 15%;
+        }
+
+        .menu {
+            display: flex;
+            margin-top: 5px;
+            padding: 0;
+        }
+
+        .menu-box {
+            flex: 1;
+            background-color: red;
+            height: 200px;
+            margin: 0 2.5px;
+        }
+
+        section {
+            display: flex;
+            height: 545px;
+            margin-top: 0;
+            padding: 0;
+        }
+
+        .block {
+            display: flex;
+            flex-direction: column;
+            background-color: green;
+            width: 433px;
+            height: 545px;
+        }
+
+        .left {
+            background-color: orange;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            transform: translateX(22.5%);
+            padding: 0 30px;
+        }
+
+        .box {
+            background-color: pink;
+            height: 376px;
+            width: 150px;
+            margin-top: 50px;
+        }
+
+        .center-block {
+            background-color: rgb(0, 255, 255);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .block-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .center-box {
+            background-color: yellow;
+            height: 450px;
+            width: 144.34px;
+        }
+
+        .a-center, .b-center {
+            background-color: orange;
+            height: 90px;
+            width: 72.17px;
+            transform: translateY(27px);
+        }
+
+        .b-center {
+            transform: translateY(279px);
+        }
+
+        .right-block {
+            background-color: blue;
+            width: 434px;
+            height: 545px;
+        }
+
+        .right-box {
+            background-color: orange;
+            height: 200px;
+            width: 144.67px;
+            margin-top: 170px;
+        }
+
+        .text-box {
+            background-color: black;
+            font-style: italic;
+            color: aqua;
+            position: absolute;
+            padding: 10px 40px;
+        }
+
+        .text-left {
+            right: 0px;
+            top: 35px;
+        }
+
+        .text-right {
+            left: 0px;
+            bottom: 35px;
+        }
+
+        .bottom-right-2 {
+            background-color: yellow;
+            height: 200px;
+            width: 144.67px;
+            margin-top: 270px;
+        }
+
+        .bottom-right-3 {
+            background-color: rgb(0, 255, 255);
+            height: 150px;
+            width: 144.67px;
+            margin-top: 172px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="hat">
+            <p>Шапка</p>
+            <div class="hat-center">
+                <div class="hat-center-in"></div>
+            </div>
+        </header>
+        <nav class="menu">
+            <p>Меню</p>
+            <div class="menu-box"></div>
+            <div class="menu-box"></div>
+            <div class="menu-box"></div>
+            <div class="menu-box"></div>
+        </nav>
+
+        <section>
+            <div class="block">
+                <p>Лівий блок</p>
+                <div class="left">
+                    <p>Left</p>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+            <div class="center-block">
+                <p>Центр блок</p>
+                <div class="block-row">
+                    <div class="center-box"></div>
+                    <div class="center-box">
+                        <p>a-centr</p>
+                        <div class="a-center"><p>A-c</p></div>
+                        <div class="b-center"><p>B-c</p></div>
+                    </div>
+                    <div class="center-box"></div>
+                </div>
+            </div>
+            <div class="right-block">
+                <p>Правий блок</p>
+                <div class="right-box">
+                    <div class="text-box text-left">text</div>
+                    <div class="text-box text-right">text</div>
+                </div>
+                <div class="bottom-right-2"></div>
+                <div class="bottom-right-3"></div>
+            </div>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+</html>

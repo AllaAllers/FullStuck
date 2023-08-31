@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>   
+    <style>       
+        body {
+            width: 1300px;
+            border: 3px solid red;
+            height: 1200px;
+            display: flex;           
+            flex-direction: column;
+            margin: 0;
+        }
+        header, div, nav {          
+          text-align: center;
+          font-size: 20px;
+          margin: 0;
+        }
+
+/* header */
+        header {
+            background: rgb(255, 110, 255);
+            height: 450px;                                     
+        }              
+        header div{
+            display: flex;
+            justify-content: center;  
+        }
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;          
+        }
+        .box div {
+            background-color: white;
+            width: 1000px;
+            height: 250px;
+            margin: auto;
+        }
+        .box1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;            
+        }
+        .box1 div {
+            background-color: black;
+            width: 750px;
+            height: 90px;            
+        }
+
+/* menu         */        
+        nav{
+            background-color: grey;
+            height: 25px;
+        }
+        #menu {
+          display: flex;
+          height: 300px;
+          background-color: grey;
+          align-items: center; 
+          justify-content: stretch;          
+        }
+        .red{
+            background-color: red;
+        }
+        .orange {
+            background-color: orange;
+        }
+        .blue {                        
+            background-color: aqua;
+        }
+        .yellow{           
+            background-color: yellow;
+        }  
+        .comb{
+            width: 25%;
+            height: 250px;
+        }               
+
+/* Footer         */
+        footer {         
+          height: 600px;
+          display: flex;
+          /* flex-direction: column; */
+        }
+        .left-block{
+            background-color: green;
+        }
+        .center-block{
+            background-color: aqua;
+        }
+        .right-block{
+            background-color: blue;
+        }
+        .com1{
+            height: 100%;
+            width: auto;
+            flex: 1;
+        }
+
+        /* left-block */
+        .left-block{
+            display: flex;            
+            align-content: flex-end;
+            flex-wrap: wrap;
+        }
+        .midL-text{
+            height: 90px;
+            width: 100%;
+            
+        }
+        .left-block div{
+            flex: 1 0 auto;
+            align-items: center;
+            
+        }
+        .mid1{
+            width: 1px;
+        }
+        .mid2 {            
+            width: 280px;            
+            height: 420px;
+            background-color: orange;  
+            display: flex;   
+            align-content: flex-end;
+            flex-wrap: wrap;                           
+        }
+        
+        .mid2 div{          
+            height: 80%;
+        }
+        .mid2L-text{   
+            width: 100%;            
+            text-align: center;        
+                  
+        }
+        .mid2-pink{
+            background-color: pink;
+        }
+        .mid2-yellow{
+            background-color: yellow;
+        }
+       
+        
+    </style>
+
+    <header>
+        <div>Шапка</div>
+        <div class="box">
+            <div class="box1">
+                <div></div>
+            </div> 
+        </div>                
+    </header>
+    <nav>Menu</nav>
+        <div id="menu">           
+            <div class="red comb"></div>
+            <div class="orange comb"></div>
+            <div class="blue comb"></div>
+            <div class="yellow comb"></div>
+        </div>
+    <nav></nav>
+    <footer>
+        <div class="left-block com1">
+            <div class="midL-text">Лівий блок</div>
+            <div class="mid1"></div>
+            <div class="mid2">
+                <div class="mid2L-text">left</div> 
+                <div class="mid2-pink">a-left</div>
+                <div class="mid2-yellow">b-left</div>
+            </div>
+            <div class="mid3"></div>
+        </div>
+        <div class="center-block com1">Центр блок</div>
+        <div class="right-block com1">Правий блок</div>
+    </footer>    
+</body>
+</html>

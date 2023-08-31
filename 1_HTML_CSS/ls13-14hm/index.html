@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<body>
+    <style>
+        .body{
+            width: 1300px;
+            border: 3px solid red;
+            height: 1200px;            
+            display: flex; 
+            flex-direction: column;
+            margin: 0;
+        }
+        .pink{                        
+            background-color: rgb(255, 110, 255);
+            height: 450px;
+        }
+        .grey{           
+            background-color: grey;
+            height: 300px;
+            display: flex;
+            align-items: center; 
+        }
+        .red{
+            background-color: red;
+        }
+        .orange {
+            background-color: orange;
+        }
+        .blue {                        
+            background-color: blue;
+        }
+        .yellow{           
+            background-color: yellow;
+        }  
+        .comb{
+                width: 20%;
+                height: 240px;
+        }
+
+        .bottom{
+            /* background-color: red; */
+            height: 600px;
+        }
+        /* .black{
+            background-color: green;
+        }
+         */
+    </style>
+
+    <div class="body">
+        
+        <div class="pink"></div>
+        <div class="grey">
+            <p>Menu</p>
+            <!-- <div class="clear">Menu</div> -->
+            <div class="red comb">1a</div>
+            <div class="orange comb">2</div>
+            <div class="blue comb">3</div>
+            <div class="yellow comb">4</div>
+        </div>
+        <div class="bottom"></div>
+        <!-- <div class="black common"></div>
+        <div class="black common"></div> -->
+    </div>
+    
+</body>
+</html>
