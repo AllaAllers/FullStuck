@@ -1,0 +1,41 @@
+*{
+    font-weight: 250;
+    color: rgb(49, 49, 49);
+    margin: 20px;
+    padding: 10px;
+}
+
+hr{
+    padding: 0;
+}
+
+table, th, td {
+border: 1px solid black;
+}
+
+.table2 {
+    background-color: rgb(224, 223, 223);
+    border: 2px dotted rgb(91, 91, 91);
+}
+
+td:first-child {
+    font-weight: 600;    
+}
+
+th:hover {
+    background-color: rgb(198, 198, 202);
+}
+
+div a {
+    font-size: 25px;
+    padding-left: 0;
+}
+
+#nstyle{
+    padding: 0;
+    margin: 0;
+}
+
+a.highlight:hover {
+    color: #ece808;
+  }
