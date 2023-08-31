@@ -1,0 +1,35 @@
+.text-box{
+    overflow: auto;
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 25px;
+}
+
+.text-box1{
+    overflow: hidden;
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 25px;
+}
+
+.text-box2{
+    overflow: scroll;
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 25px;
+}
+
+.text-box3{
+    overflow: visible;
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 25px;
+}
+
+h2{
+    margin: 25px;
+}

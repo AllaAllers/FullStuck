@@ -1,0 +1,81 @@
+h1{
+    background-color: #d5d5d5;
+    color: #383838;
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+  
+li {    
+    padding: 0px;
+    margin: 40px 0;
+    position: relative;
+}
+
+.music-box{    
+    border: 1px solid #383838;
+    padding: 20px;
+    margin: 10px 0;
+    position: relative;
+}
+
+li > div > h2 {  
+    background-color: #626262;
+    color: white; 
+    position: absolute;
+    top: -30px; 
+    left: 0;  
+    padding: 5px 10px;   
+}
+
+p {
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+.navig-bar{
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 2;    
+}
+
+.navig-bar-text1{
+    position: fixed; 
+    color: white;   
+    top: -5px;
+    left: 30px;
+}
+
+.navig-bar-text2{
+    position: fixed; 
+    color: white;   
+    top: -5px;
+    left: 200px;
+}
+
+.navig-bar-text3{    
+    position: fixed;  
+    color: white;   
+    top: -5px;
+    left: 450px;
+}
+.content{
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+
+a.highlight:hover {
+    color: white;
+  }
+  
